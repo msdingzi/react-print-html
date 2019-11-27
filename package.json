@@ -1,0 +1,25 @@
+{
+  "name": "react-print-html",
+  "version": "1.0.0",
+  "description": "Print web content",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-formatter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msdingzi/react-print-html.git"
+  },
+  "keywords": [
+    "react",
+    "react-print",
+    "react-print-html",
+    "print-html"
+  ],
+  "author": "dingzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msdingzi/react-print-html/issues"
+  },
+  "homepage": "https://github.com/msdingzi/react-print-html#readme"
+}
