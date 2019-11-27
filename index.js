@@ -1,20 +1,22 @@
-class Print {
-  constructor(dom, options) {
-    if (!(this instanceof Print))
-      return new Print(dom, options);
-    this.options = this.extend({
+const Print = function (dom, options) {
+  if (!(this instanceof Print)) return new Print(dom, options);
+
+  this.options = this.extend(
+    {
       noPrint: '.no-print',
       type: 'window',
-    }, options);
-    if (typeof dom === 'string') {
-      this.dom = document.querySelector(dom);
-    }
-    else {
-      this.dom = dom;
-    }
-    this.init();
+    },
+    options,
+  );
+
+  if (typeof dom === 'string') {
+    this.dom = document.querySelector(dom);
+  } else {
+    this.dom = dom;
   }
-}
+
+  this.init();
+};
 Print.prototype = {
   init() {
     const content = this.getStyle() + this.getHtml();

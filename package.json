@@ -2,8 +2,10 @@
   "name": "react-print-html",
   "version": "1.0.0",
   "description": "Print web content",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/react-print-html.min.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/msdingzi/react-print-html.git"
