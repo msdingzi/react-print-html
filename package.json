@@ -1,6 +1,6 @@
 {
   "name": "react-print-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Print web content",
   "main": "dist/react-print-html.min.js",
   "scripts": {
