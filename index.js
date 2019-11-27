@@ -132,4 +132,5 @@ Print.prototype = {
     }
   },
 };
-export default Print;
+
+module.exports = Print;

@@ -1,8 +1,8 @@
 {
   "name": "react-print-html",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Print web content",
-  "main": "dist/react-print-html.min.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack"
   },
